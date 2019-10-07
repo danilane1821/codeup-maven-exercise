@@ -32,10 +32,18 @@ public class UserInput {
 
         String streetAddress = faker.address().streetAddress();
 
+        String funnyName = faker.funnyName().name();
+        String rockBand = faker.rockBand().name();
+        String morty = faker.rickAndMorty().quote();
+
         System.out.println(name);
         System.out.println(firstName);
         System.out.println(lastName);
         System.out.println(streetAddress);
+        System.out.println(funnyName);
+        System.out.println(rockBand);
+        System.out.println(morty);
+
 
 
     }

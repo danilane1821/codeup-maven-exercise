@@ -35,6 +35,7 @@ public class UserInput {
         String funnyName = faker.funnyName().name();
         String rockBand = faker.rockBand().name();
         String morty = faker.rickAndMorty().quote();
+        String hipster = faker.hipster().word();
 
         System.out.println(name);
         System.out.println(firstName);
@@ -43,6 +44,7 @@ public class UserInput {
         System.out.println(funnyName);
         System.out.println(rockBand);
         System.out.println(morty);
+        System.out.println(hipster);
 
 
 
